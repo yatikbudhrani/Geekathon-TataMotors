@@ -1,5 +1,312 @@
+@import url("https://fonts.cdnfonts.com/css/uni-neue");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Uni Neue";
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 37, 41);
+  font-family: "Uni Neue";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 0;
+  text-align: start;
+}
+
+.header-full-wrp {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 999999;
+  transition: all 0.3s ease-out;
+  max-width: 100%;
+  transform: translate(-50%, 0%);
+}
+
+.header-full-wrp::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -8.75rem;
+  left: 0px;
+  background-color: #000000;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+.header-full-wrp .top-head {
+  padding: 9px 0px;
+  background-color: #0a0a5f;
+  transition: all 0.3s ease-out;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.header-full-wrp .top-head .container-1600-wrp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-1600-wrp {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0px 0.938rem;
+}
+
+.header-full-wrp .top-head .container-1600-wrp ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-full-wrp .top-head .container-1600-wrp ul li {
+  display: flex;
+  align-items: center;
+}
+
+.header-full-wrp .main-nav-bx {
+  background: linear-gradient(180deg, #020202 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-full-wrp .main-nav-bx {
+  padding: 25px 0px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 33px;
+  transition: all 0.3s ease-out;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * 0);
+  margin-right: calc(-0.5 * 1.5rem);
+  margin-left: calc(-0.5 * 1.5rem);
+}
+
+.header-full-wrp .main-nav-bx .logo-wrp {
+  display: block;
+  width: 175px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.header-full-wrp .main-nav-bx .nav-card {
+  transition: all 0.3s ease-out;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 {
+  list-style: none;
+  list-style-type: none;
+  margin: 0.75rem 0px 0px;
+  padding: 0px;
+  width: fit-content;
+  display: flex;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 li {
+  position: relative;
+  padding-bottom: 1.25rem;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 li a {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #ffffff;
+  padding: 0px 1.063rem;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  border-radius: 0px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 li a:hover {
+  color: #307fe2 !important;
+}
+
+.nav-card .level1:not(.level2) li a.active {
+  color: #307fe2 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.header-full-wrp .main-nav-bx .nav-card .logo-wrp2 {
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  width: 124px;
+  height: 24px;
+}
+
+/* Banner CSS Start */
+
+.inner-bnr {
+  position: relative;
+  margin: 0 auto;
+  height: 100vh;
+  margin-top: 0px;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.inner-bnr picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inner-bnr .container-1600-wrp {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.inner-bnr .container-1600-wrp .caption-wrp {
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(0%, -50%);
+}
+
+.inner-bnr .container-1600-wrp .caption-wrp p {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.inner-bnr .container-1600-wrp .caption-wrp h1 {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  margin-top: 8px;
+}
+
+.banneranim {
+  translate: none;
+  rotate: none;
+  scale: none;
+  opacity: 1;
+  transform: translate(0px);
+}
+
+.bounceArrow {
+  position: absolute;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: bounceArrow 2s infinite;
+  -webkit-animation: bounceArrow 2s infinite;
+  -moz-animation: bounceArrow 2s infinite;
+  -o-animation: bounceArrow 2s infinite;
+}
+
+.dwn-arrow-btn {
+  display: block;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.inner-bnr .container-1600-wrp .dwn-arrw {
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+.dwn-arrw {
+  position: absolute;
+}
+
+.dwn-arrw svg.active .svg-elem-1 {
+  stroke-dashoffset: 0;
+}
+
+.dwn-arrw svg .svg-elem-1 {
+  stroke-dashoffset: 240.7610416728px;
+  stroke-dasharray: 240.7610416728px;
+  transition: stroke-dashoffset 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+}
+
+.dwn-arrw svg.active .svg-elem-2 {
+  stroke-dashoffset: 0;
+}
+
+.dwn-arrw svg .svg-elem-2 {
+  stroke-dashoffset: 240.7610416728px;
+  stroke-dasharray: 240.7610416728px;
+  transition: stroke-dashoffset 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s;
+}
+
+.arrowdwn-ico {
+  position: absolute;
+  left: 0px;
+  opacity: 0;
+  top: 50px;
+  width: 60px;
+  height: 60px;
+  background-image: url("https://www.tatamotors.com/wp-content/themes/TataMotors/images/arrow-dwn-ico.svg");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  pointer-events: none;
+}
+
+/* Banner CSS End */
+
+.breadcrumbs {
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  padding-right: calc(1.5rem * 0.5);
+  padding-left: calc(0 * 0.5);
+  margin-right: auto;
+  margin-left: auto;
 }

@@ -5,21 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
       rel="shortcut icon"
       href="https://www.tatamotors.com/wp-content/themes/TataMotors/images/favicon.ico"
       type="image/x-icon"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
     <link href="https://fonts.cdnfonts.com/css/uni-neue" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS/organisation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Tata Motors Limited Organisation | The Future of Mobility</title>
   </head>
   <body>
+    <!-- Bootsrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Nav Header Start -->
     <section class="header-full-wrp nav-down">
       <div class="top-head">
@@ -239,7 +263,429 @@
       <!-- Breadcrumbs Start -->
       <section class="breadcrumbs">
         <div class="container">
-          <nav aria-label="Breadcrumb"></nav>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb m-0">
+              <li class="breadcrumb-item active" aria-current="page">
+                <a style="text-decoration-line: none" href="./organisation.html"
+                  >Organisation</a
+                >
+              </li>
+              <li class="breadcrumb-item">Overview</li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+      <!-- Breadcumbs End -->
+
+      <!-- Inner About section Start -->
+      <section class="inner-about-sec">
+        <div class="container">
+          <div class="cap-cvr">
+            <h4
+              class="sub-ttle appearIntro"
+              style="
+                translate: none;
+                rotate: none;
+                scale: none;
+                opacity: 1;
+                transform: translate(0px);
+              "
+            >
+              About us
+            </h4>
+            <h2
+              class="common-ttle appearIntro"
+              style="
+                translate: none;
+                rotate: none;
+                scale: none;
+                opacity: 1;
+                transform: translate(0px);
+              "
+            >
+              Future-ready Tata Motors has chosen sustainable mobility as the
+              new paradigm.
+            </h2>
+          </div>
+
+          <div class="in-abt-sldr swiper swiper-pointer-events">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block w-100"
+                    src="../Images/organisation/carousel_1.png"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="../Images/organisation/carousel_2.png"
+                    alt="Second slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="../Images/organisation/carousel_3.png"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Inner About section End -->
+
+      <section class="abt-journey-wrp">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+              <div class="jouney-lhs">
+                <h4 class="sub-ttle appearIntro jouney-lhs-ele">Our journey</h4>
+                <h2 class="common-ttle appearIntro jouney-lhs-ele">
+                  Envisioning the future<br />with a proven legacy
+                </h2>
+                <p class="desc appearIntro jouney-lhs-ele">
+                  With a strong foundation rooted in our rich heritage and
+                  timeless values, we are shaping the future by making cargo and
+                  people mobility safer, sustainable, efficient and accessible
+                  for all.
+                </p>
+                <a href="#" class="readmore-cta appearIntro jouney-lhs-ele">
+                  Read more
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-8 col-lg-12 col-md-12 col-12">
+              <div class="journey-rhs appearIntro onHover jouney-lhs-ele">
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">1945</span>
+                </a>
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">1969</span>
+                </a>
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">1975</span>
+                </a>
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">1986</span>
+                </a>
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">2002</span>
+                </a>
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">2015</span>
+                </a>
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">2020</span>
+                </a>
+                <a class="bars journ-bar" href="javascript:void(0)">
+                  <span class="date">2022</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="leadership-wrp">
+        <div class="container">
+          <div class="in-leadership-bx appearIntro jouney-lhs-ele">
+            <div class="caption-wrp">
+              <h4 class="sub-ttle appearIntro jouney-lhs-ele">Leadership</h4>
+              <h2 class="common-ttle appearIntro jouner jouney-lhs-ele">
+                Navigating it right
+              </h2>
+              <p class="desc appearIntro jouney-lhs-ele">
+                Our leaders are fostering a purpose-led and value-driven
+                organisation, paving the way for a safer, smarter, greener
+                future; improving the quality of life.
+              </p>
+              <a href="#" class="btn-box anim-6 text-center">Meet our team</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- leadership end -->
+
+      <section class="footer-wrp">
+        <div class="container-1600-wrp">
+          <div class="row f1">
+            <div class="col col-xl-2">
+              <a href="../HTML/futureOfMobility.html" class="ttle footerA">
+                Future of mobility
+              </a>
+              <a href="javascript:void(0)" class="ttle accordion_head2 footerA">
+                Business
+              </a>
+              <div class="ftr-sub-links-cvr accordion_body2">
+                <a href="../HTML/business.html" class="ftr-link footerA">
+                  Commercial vehicles
+                </a>
+                <a href="../HTML/business.html" class="ftr-link footerA">
+                  Passenger vehicles</a
+                >
+                <a href="../HTML/business.html" class="ftr-link footerA">
+                  Electric vehicles
+                </a>
+                <a href="../HTML/business.html" class="ftr-link footerA">
+                  Luxury vehicles
+                </a>
+              </div>
+            </div>
+            <div class="col ftr-drop-wrp">
+              <a href="javascript:void(0)" class="ttle accordion_head2"
+                >Organisation</a
+              >
+              <div class="ftr-sub-links-cvr accordion_body2">
+                <a href="../HTML/organisation.html" class="ftr-link footerA">
+                  Overview
+                </a>
+                <a href="../HTML/organisation.html" class="ftr-link footerA">
+                  About us
+                </a>
+                <a href="../HTML/organisation.html" class="ftr-link footerA">
+                  Our history
+                </a>
+                <a href="../HTML/organisation.html" class="ftr-link footerA">
+                  Our leadership
+                </a>
+                <a href="../HTML/organisation.html" class="ftr-link footerA">
+                  Our global presence
+                </a>
+                <a
+                  href="https://www.tatamotors.com/organisation/subsidiaries"
+                  class="ftr-link footerA"
+                >
+                  Subsidiaries and other entities
+                </a>
+                <a
+                  href="https://www.tatamotors.com/organisation/innovation"
+                  class="ftr-link footerA"
+                >
+                  Innovations
+                </a>
+              </div>
+            </div>
+            <div class="col col-xl-3 ftr-drop-wrp">
+              <a href="javascript:void(0)" class="ttle accordion_head2 footerA"
+                >Corporate responsibility</a
+              >
+              <div class="ftr-sub-links-cvr accordion_body2">
+                <a
+                  href="../HTML/corporateResponsibility.html"
+                  class="ftr-link footerA"
+                  >Overview</a
+                >
+                <a
+                  href="../HTML/corporateResponsibility.html"
+                  class="ftr-link footerA"
+                  >Planet resilience</a
+                >
+                <a
+                  href="../HTML/corporateResponsibility.html"
+                  class="ftr-link footerA"
+                  >Working with communities</a
+                >
+                <a
+                  href="../HTML/corporateResponsibility.html"
+                  class="ftr-link footerA"
+                  >Governance</a
+                >
+              </div>
+            </div>
+
+            <div class="col ftr-drop-wrp">
+              <a href="javascript:void(0)" class="ttle accordion_head2 footerA"
+                >Investors</a
+              >
+              <div class="ftr-sub-links-cvr accordion_body2">
+                <a href="#" class="ftr-link footerA">Overview</a>
+                <a href="#" class="ftr-link footerA">Financial information </a>
+                <a href="#" class="ftr-link footerA"
+                  >Governance and regulatory information</a
+                >
+                <a href="#" class="ftr-link footerA">Shareholder information</a>
+                <a href="#" class="ftr-link footerA">Fixed income</a>
+                <a href="#" class="ftr-link footerA">Volumes</a>
+                <a href="#" class="ftr-link footerA">ESOP</a>
+                <a href="#" class="ftr-link footerA">Other information</a>
+                <a href="#" class="ftr-link footerA">Investor calendar</a>
+                <a href="#" target="_blank" class="ftr-link footerA"
+                  >ESG profile</a
+                >
+                <a href="#" class="ftr-link footerA">Extraordinary meeting</a>
+                <a href="#" class="ftr-link footerA">Disclaimer</a>
+                <a href="#" class="ftr-link footerA">Investor contacts</a>
+              </div>
+            </div>
+
+            <div class="col ftr-drop-wrp">
+              <a href="javascript:void(0)" class="ttle accordion_head2 footerA"
+                >Newsroom</a
+              >
+              <div class="ftr-sub-links-cvr accordion_body2">
+                <a href="./newsroom.html" class="ftr-link footerA">Overview</a>
+                <a href="#" class="ftr-link footerA">Press releases</a>
+                <a href="#" class="ftr-link footerA">Thought leadership</a>
+                <a href="./newsroom.html" class="ftr-link footerA"
+                  >Media library</a
+                >
+              </div>
+            </div>
+
+            <div class="col ftr-drop-wrp">
+              <a href="javascript:void(0)" class="ttle accordion_head2 footerA"
+                >Careers</a
+              >
+              <div class="ftr-sub-links-cvr accordion_body2">
+                <a href="#" class="ftr-link footerA">Overview</a>
+                <a href="#" class="ftr-link footerA">Life @ Tata Motors</a>
+                <a href="#" class="ftr-link footerA">Openings @ Tata Motors</a>
+                <a href="#" class="ftr-link footerA">Early Careers</a>
+                <a href="#" class="ftr-link footerA">FAQs</a>
+              </div>
+            </div>
+
+            <div class="col ftr-drop-wrp">
+              <a href="javascript:void(0)" class="ttle accordion_head2 footerA"
+                >Careers</a
+              >
+              <div class="ftr-sub-links-cvr accordion_body2">
+                <a href="#" class="ftr-link footerA">Overview</a>
+                <a href="#" class="ftr-link footerA">Life @ Tata Motors</a>
+                <a href="#" class="ftr-link footerA">Openings @ Tata Motors</a>
+                <a href="#" class="ftr-link footerA">Early Careers</a>
+                <a href="#" class="ftr-link footerA">FAQs</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row f2 justify-content-between">
+            <div class="col col-xl-2 ftr-drop-wrp">
+              <p class="ttle accordion_head2">Social Media</p>
+              <div class="ftr-sub-links-cvr accordion_body2 socialIcons">
+                <a
+                  href="https://www.facebook.com/TataMotorsGroup/"
+                  class="ftr-link"
+                  target="_blank"
+                  ><i class="fab fa-facebook-square" aria-hidden="true"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/tatamotorsgroup/"
+                  class="ftr-link"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://twitter.com/TataMotors"
+                  class="ftr-link"
+                  target="_blank"
+                >
+                  <i
+                    class="fa-brands fa-square-x-twitter"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/tata-motors/"
+                  class="ftr-link"
+                  target="_blank"
+                  ><i class="fab fa-linkedin" aria-hidden="true"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/user/TataMotorsGroup"
+                  class="ftr-link"
+                  target="_blank"
+                  ><i class="fab fa-youtube-square" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4 ftr-drop-wrp">
+              <div class="subscr-wrp">
+                <p class="ttle">Subscribe</p>
+                <div class="subscribe-wrp">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="lhs subscribe_email"
+                  />
+                  <input
+                    type="hidden"
+                    name="csrf_token2"
+                    class="csrf_token2"
+                    value="5196"
+                  />
+                  <input
+                    type="submit"
+                    name="Submit"
+                    id=""
+                    class="rhs subscribe_subm"
+                    value="Subscribe"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt25 f3">
+            <div class="col-12 col-md-6">
+                <a href="#">Legal Disclaimer</a>
+                <a href="#">Open Source License Disclosure</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <p class="copy-txt text-md-end"> © Copyright
+                    2024. All rights reserved. Tata Motors Limited.
+                </p>
+            </div>
+        </div>
         </div>
       </section>
     </div>

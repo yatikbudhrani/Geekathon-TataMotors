@@ -1,5 +1,370 @@
-* {
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* header css */
+.header-full-wrp {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 999999;
+  transition: all 0.3s ease-out;
+  max-width: 100%;
+  transform: translate(-50%, 0%);
+}
+
+.header-full-wrp::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -8.75rem;
+  left: 0px;
+  background-color: #000000;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+.header-full-wrp .top-head {
+  padding: 9px 0px;
+  background-color: #0a0a5f;
+  transition: all 0.3s ease-out;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.header-full-wrp .top-head .container-1600-wrp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-1600-wrp {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0px 0.938rem;
+}
+
+.header-full-wrp .top-head .container-1600-wrp ul {
+  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  display: flex;
+}
+
+.header-full-wrp .top-head .container-1600-wrp ul li {
+  display: flex;
+  align-items: center;
+}
+
+.header-full-wrp .main-nav-bx {
+  background: linear-gradient(180deg, #020202 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-full-wrp .main-nav-bx {
+  padding: 25px 0px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 33px;
+  transition: all 0.3s ease-out;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * 0);
+  margin-right: calc(-0.5 * 1.5rem);
+  margin-left: calc(-0.5 * 1.5rem);
+}
+
+.header-full-wrp .main-nav-bx .logo-wrp {
+  display: block;
+  width: 175px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.header-full-wrp .main-nav-bx .nav-card {
+  transition: all 0.3s ease-out;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 {
+  list-style: none;
+  list-style-type: none;
+  margin: 0.75rem 0px 0px;
+  padding: 0px;
+  width: fit-content;
+  display: flex;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 li {
+  position: relative;
+  padding-bottom: 1.25rem;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 li a {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #ffffff;
+  padding: 0px 1.063rem;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  border-radius: 0px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.header-full-wrp .main-nav-bx .nav-card ul.level1 li a:hover {
+  color: #307fe2 !important;
+}
+
+.nav-card .level1:not(.level2) li a.active {
+  color: #307fe2 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.header-full-wrp .main-nav-bx .nav-card .logo-wrp2 {
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  width: 124px;
+  height: 24px;
+}
+
+.firstView{
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.firstView img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center; */
+}
+img{
+  vertical-align: middle;
+}
+
+.firstView .continer{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  
+}
+.firstView .continer .para{
+  font-size: 25px;
+  line-height: 1.2;
+  color: white;
+  opacity: 1;
+  margin-bottom: 0;
+}
+.firstView .continer .headline{
+  font-size: 62px;
+  line-height: 1.3;
+  color: white;
+  margin-top: 17px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.linehead .container{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linehead .container .list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  border-bottom: 0.5px solid #d3d3d3;
+}
+
+.intro{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url("https://www.tatamotors.com/wp-content/themes/TataMotors/images/pattern-dotted.png"), url("https://www.tatamotors.com/wp-content/themes/TataMotors/images/pattern-dotted.png");
+  background-repeat: no-repeat;
+  background-position: left top 30px, right top 30px;
+  background-size: 12%;
+}
+
+.intro .container{
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro .allPara{
+  margin: auto;
+  text-align: center;
+  width: 75%;
+}
+.intro .container .intro-heading{
+  
+  text-align: center;
+  font-size: 40px;
+}
+
+.intro .para1{
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.intro .para2{
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.btn{
+  border: none;
+  display: inline-block;
+  padding: 12px 35px;
+  background-color: #0a0a5f;
+  text-decoration: none;
+  border-radius: 70px;
+  font-size: 18px;
+  color: white;
+}
+
+.banner{
+  margin-bottom: 100px;
+}
+
+.banner .container{
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container .outerbox{
+  border-radius: 24px;
+  background-color: #000000;
+  padding: 50px 0px;
+}
+
+.makeCols{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  color: white;
+}
+
+.col1 span{
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: block;
+  margin-bottom: 0;
+}
+.col1 p{
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .outerbox .intro {
+  font-size: 16px;
+  color: #919191;
+  margin-bottom: 0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* explore section */
+.explore{
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.explore .container{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.explore .container .innerbox{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-height: 160px;
+  border-radius: 16px;
+  border: 1px solid #d3d3d3;
+  background: rgba(211, 211, 211, 0.2);
+}
+.innerbox .image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.explore .content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.explore .content .innercontent .head4{
+  color:white;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+.explore .content .innercontent .head2{
+  color: white;
+}
+.btn-box{
+  border: none;
+  display: inline-block;
+  padding: 12px 35px;
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
 }
